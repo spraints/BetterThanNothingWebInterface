@@ -3,6 +3,6 @@ services:
   php-apache:
     build: .
     ports:
-      - 80:80
+      - "127.0.0.1:11180:80"
     environment:
       - TZ=US/Eastern
